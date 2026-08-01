@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/types.h>
-
 #define _POSIX_C_SOURCE 200809L
 #define SUPERBLOCK_SIZE 512U
 #define FILE_SYSTEM_ID_SIZE 8U
