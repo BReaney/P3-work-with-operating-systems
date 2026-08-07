@@ -28,7 +28,7 @@
 ## `diskput` (4.0/4.0)
 
 - [0.5/0.5] `diskput` source-not-found message
-- [2/2] `diskput` copies a file into the image — 2/2 files (text, binary) appear in the image
+- [2/2] `diskput` copies a file into the specified directory — 2/2 cases passed (root + text, existing sub-directory + binary)
 - [1/1] copied-back file is identical to the original — 2/2 files read back byte-identical
 - [0.5/0.5] `diskput` creates a missing sub-directory
 
