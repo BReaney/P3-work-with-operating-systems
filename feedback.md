@@ -13,7 +13,7 @@
 
 ## `disklist` (4.0/4.0)
 
-- [1/1] `disklist` output format
+- [1/1] `disklist` produces a directory listing
 - [1/1] `disklist non-empty.img /`
 - [1/1] `disklist non-empty.img /sub_Dir`
 - [1/1] `disklist large.img /dir1/dir2/dir3/dir4/dir5`
