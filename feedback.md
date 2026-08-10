@@ -20,14 +20,14 @@
 
 ## `diskget` (4.0/4.0)
 
-- [0.5/0.5] `diskget` not-found message
+- [0.5/0.5] `diskget` reports a missing file
 - [1/1] `diskget` copies `/sub_Dir/201.jpg`
 - [1/1] `diskget` copies `/dir1/dir2/dir3/dir4/dir5/video.mp4`
 - [1.5/1.5] copied files are byte-identical — 2/2 files matched the expected SHA-1
 
 ## `diskput` (4.0/4.0)
 
-- [0.5/0.5] `diskput` source-not-found message
+- [0.5/0.5] `diskput` reports a missing source file
 - [2/2] `diskput` copies a file into the specified directory — 2/2 cases passed (root + text, existing sub-directory + binary)
 - [1/1] copied-back file is identical to the original — 2/2 files read back byte-identical
 - [0.5/0.5] `diskput` creates a missing sub-directory
